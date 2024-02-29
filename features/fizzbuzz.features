@@ -1,0 +1,6 @@
+Feature: FizzBuzz in order to have fun.
+As a player I want to play FizzBuzz.
+    Scenario: Generate FizzBuzz sequence, counting from 1 to 15.
+        Given: I have a FizzBuzz generator
+        When: I generate the sequence up to 15
+        Then: The result should be 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
